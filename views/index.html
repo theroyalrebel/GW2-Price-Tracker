@@ -1,0 +1,26 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+<h1>GW2 Item Price Tracker</h1>
+<form method="post" action="/submit" name="myform">
+  <p>Item Name<br>
+  <input type="text" name="itemName" id="itemName" placeholder="Dawn">
+  </p>
+  <p>Price<br>
+  <input type="number" name="itemPrice" placeholder="32645010"></p>
+  <p>Buy/Sell<br>
+    <select name="buyOrSell">
+      <option value="buy">Buy</option>
+      <option value="sell" selected>Sell</option>
+    </select>
+  </p>
+  <p>Email<br>
+  <input type="text" name="email" placeholder="example@example.com"></p>
+  <p><input type="submit" name="submit" id="submit" /></p>
+</form>
+<script>
+</script>
+</body>

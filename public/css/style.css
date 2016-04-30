@@ -1,0 +1,13 @@
+h1 {
+  font: 3em "Arial Rounded MT Bold", "Optima", "Arial";
+  text-align: center;
+}
+
+#nav {
+    font: 2em "Optima", "Arial";
+    text-align: center;
+}
+
+form {
+  text-align: center;
+}
